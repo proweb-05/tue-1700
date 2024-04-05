@@ -25,3 +25,37 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.footer {
+  background: #322E41;
+}
+
+.logo {
+  text-align: center;
+  padding: 28px 22px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.desc {
+  background: #1E1A29;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+.menu__list{
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 23px;
+  gap: 30px;
+  transition: 0.5s;
+}
+
+.menu__list:hover {
+  color: #FFE600;
+  text-decoration: underline;
+}
