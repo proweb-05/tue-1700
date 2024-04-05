@@ -25,3 +25,32 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.ads {
+  background: url(../img/ads.jpg) center / cover no-repeat;
+  background-attachment: fixed;
+ height: 100vh;
+}
+.ads__title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+  text-align: center;
+}
+.ads__desc {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Roboto';
+  width: 173px;
+ 
+}
+.ads__wrap {
+  background: rgba(186, 186, 186, 0.5);
+  max-width: 400px;
+  width: 100%;
+  padding: 20px 114px;
+  margin-left: 50px;
+}
