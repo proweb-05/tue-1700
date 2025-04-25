@@ -26,6 +26,28 @@ ul {
   padding: 0 15px;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #322E41;
+  
+}
+.nav__logo {
+  display: flex;
+  align-items: center;
+  padding: 13px 165px;
+   
+ 
+}
+.nav__list {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;   
+}
+
 
 .card{
   display: flex;
@@ -52,3 +74,5 @@ height: 260px;
   font-size: 22px;
   border: 0px solid;
 }
+
+
