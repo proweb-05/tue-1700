@@ -25,6 +25,7 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -47,5 +48,31 @@ ul {
   color: #fff;   
 }
 
+
+.card{
+  display: flex;
+  justify-content: space-between;
+  max-width: 330px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.card__img{
+height: 260px;
+}
+
+.card__title{
+ 
+ font-size: 22px;
+}
+.card__desc{
+ font-size: 16px;
+ color: #6A6A6A;
+}
+.card__btn{
+  background: #DFC900;
+  font-size: 22px;
+  border: 0px solid;
+}
 
 
